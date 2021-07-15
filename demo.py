@@ -27,7 +27,7 @@ def carrier_detection(image_path, model):
 
     # find bboxes of bad revit
     start = time.time()
-    results = model.infer(img, ring_obj.circle_list, carrier_info)
+    results = model(img, ring_obj.circle_list, carrier_info)
     print(f"time: {time.time() - start}s")
 
     if len(results) > 0:
