@@ -1,3 +1,6 @@
 [submodule "mmcontrollers"]
 	path = lib/mmcontrollers
 	url = git@192.168.10.30:Algorithm4/commons/mmlib/mmcontrollers.git
+[submodule "lib/utils_vvd"]
+	path = lib/utils_vvd
+	url = git@192.168.10.30:Algorithm4/private/zhangyiwei/utils_vvd.git
